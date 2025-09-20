@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="78" viewBox="0 0 85 78">
+  <g id="Grupo_1230136" data-name="Grupo 1230136" transform="translate(-180 -2651)">
+    <rect id="Rectángulo_423244" data-name="Rectángulo 423244" width="85" height="78" rx="15" transform="translate(180 2651)" fill="#dcb9fc"/>
+    <g id="bombilla-de-iluminacion" transform="translate(122.53 2662.448)">
+      <g id="Grupo_1229407" data-name="Grupo 1229407" transform="translate(81.561)">
+        <g id="Icons_9_">
+          <g id="Grupo_1229406" data-name="Grupo 1229406">
+            <path id="Trazado_1064208" data-name="Trazado 1064208" d="M184.083,367.594H170.458a1.837,1.837,0,0,0,0,3.674h13.626a1.837,1.837,0,1,0,0-3.674Z" transform="translate(-158.861 -326.384)" fill="#aa52f9"/>
+            <path id="Trazado_1064209" data-name="Trazado 1064209" d="M181.068,429.29v1a2.044,2.044,0,0,0,2.045,2.045h3.053a2.046,2.046,0,0,0,2.045-2.045v-1a4.447,4.447,0,0,0,4.146-4.429H176.92A4.449,4.449,0,0,0,181.068,429.29Z" transform="translate(-166.23 -377.231)" fill="#aa52f9"/>
+            <path id="Trazado_1064210" data-name="Trazado 1064210" d="M99.971,0A18.388,18.388,0,0,0,85.5,29.764a78.666,78.666,0,0,1,6.027,8.821H108.41a78.406,78.406,0,0,1,6.029-8.824A18.388,18.388,0,0,0,99.971,0ZM100,6.387a11.862,11.862,0,0,0-11.85,11.849,1.837,1.837,0,0,1-3.674,0A15.54,15.54,0,0,1,100,2.713a1.837,1.837,0,0,1,0,3.674Z" transform="translate(-81.561)" fill="#aa52f9"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
