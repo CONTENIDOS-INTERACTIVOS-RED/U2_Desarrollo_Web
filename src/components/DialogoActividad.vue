@@ -60,7 +60,7 @@
         .dialogo__words__content
           .dialogo__words__content__explanation 
             slot(name="descripcion-actividad") Arrastra y suelta las palabras en la conversación
-          .dialogo__words__content__words__container.mt-md-3.mb-3.mb-md-0(v-if="wordsToShow.length")
+          .dialogo__words__content__words__container.mt-md-3.mb-3.mb-lg-0(v-if="wordsToShow.length")
             template(v-if="touchScreen")
               .h5.dialogo__words__word(
                 v-for="word in wordsToShow"

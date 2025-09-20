@@ -2,7 +2,7 @@
 .linea-tiempo-b.py-5
   .linea-tiempo-b__line-row.row
     .col-5.d-none.d-md-block
-    .col-3.col-md-2
+    .col-3.col-md-4.col-lg-2
       .linea-tiempo-b__line
     .col-9.col-md-5
 
@@ -11,7 +11,7 @@
     :ref="'linea-tiempo-item-'+index"
   )
     .col-5.d-none.d-md-block
-    .col-3.col-md-2
+    .col-3.col-md-4.col-lg-2
       .linea-tiempo-b__icon
         img(:src="item.icono")
     .col-9.col-md-5

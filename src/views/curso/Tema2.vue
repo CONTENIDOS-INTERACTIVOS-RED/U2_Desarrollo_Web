@@ -8,7 +8,7 @@
         figure
           img(src="@/assets/curso/tema2/1.svg", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        p(data-aos="fade-left") El ecosistema de tecnologías frontend constituye el fundamento técnico sobre el cual se construyen todas las interfaces web modernas, representando un conjunto de herramientas especializadas que trabajan de manera sinérgica para crear experiencias digitales completas. Estas tecnologías han evolucionado significativamente desde sus orígenes, adaptándose a las crecientes demandas de interactividad, capacidad de respuesta y accesibilidad que caracterizan el desarrollo web contemporáneo.
+        p(data-aos="fade-left") El ecosistema de tecnologías <em>frontend</em> constituye el fundamento técnico sobre el cual se construyen todas las interfaces web modernas, representando un conjunto de herramientas especializadas que trabajan de manera sinérgica para crear experiencias digitales completas. Estas tecnologías han evolucionado significativamente desde sus orígenes, adaptándose a las crecientes demandas de interactividad, capacidad de respuesta y accesibilidad que caracterizan el desarrollo web contemporáneo.
     
         .bg-color-6.p-5(data-aos="fade-left")
           p.mb-0 HTML, CSS y JavaScript, forman la tríada fundamental que define la estructura, presentación y comportamiento de las aplicaciones web, cada una con responsabilidades específicas pero interdependientes que requieren un dominio técnico profundo para ser utilizadas efectivamente. La comprensión de estas tecnologías va más allá del conocimiento sintáctico, abarcando principios de arquitectura de información, metodologías de diseño adaptativo, patrones de interacción y optimización de rendimiento que son esenciales para crear aplicaciones robustas y escalables.
@@ -89,32 +89,32 @@
         .row.justify-content-center
           .col-lg-10
             PasosA.color-primario.mb-5(tipo="n")
-              .row
-                .col-md-9.mb-4.mb-md-0
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0
                   h3 Paso 1
                   p Establecer las variables CSS para definir un sistema de espaciado coherente (--spacing-xs: 0.5rem, --spacing-sm: 1rem, --spacing-md: 1.5rem) y colores corporativos.
-                .col-md-2
+                .col-md-4.col-lg-2
                   figure
                     img(src='@/assets/curso/tema2/9.svg', alt='Texto que describa la imagen')
-              .row
-                .col-md-9.mb-4.mb-md-0.order-2
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0.order-2
                   h3 Paso 2
                   p Crear la estructura base de la tarjeta utilizando box-sizing: border-box para facilitar el cálculo de dimensiones y aplicar relleno interno usando las variables definidas.
-                .col-md-2.order-1.mb-4.mb-md-0
+                .col-md-4.col-lg-2.order-1.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema2/10.svg', alt='Texto que describa la imagen')
-              .row
-                .col-md-9.mb-4.mb-md-0
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0
                   h3 Paso 3
                   p Implementar selectores específicos para diferentes variantes de tarjeta (.card--primary, .card--secondary) y estados (:hover, :focus) que modifiquen propiedades como color de fondo, sombra y transformación.
-                .col-md-2
+                .col-md-4.col-lg-2
                   figure
                     img(src='@/assets/curso/tema2/11.svg', alt='Texto que describa la imagen')
-              .row
-                .col-md-9.mb-4.mb-md-0.order-2
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0.order-2
                   h3 Paso 4
                   p Aplicar consultas de medios para adaptar el tamaño y espaciado de las tarjetas en diferentes dispositivos.
-                .col-md-2.order-1.mb-4.mb-md-0
+                .col-md-4.col-lg-2.order-1.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema2/12.svg', alt='Texto que describa la imagen')
     
@@ -137,7 +137,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0.text-white.order-2
             h2.mb-4(data-aos="flip-up") Principios de diseño con CSS: Flexbox, Grid, y diseño responsivo 
-            p.mb-4(data-aos="fade-right") En el PDF <b>Principios de diseño con CSS</b>, se exploran herramientas fundamentales como Flexbox, CSS Grid y técnicas de diseño responsivo, destacando su aplicación en la construcción de estructuras visuales eficientes y accesibles en múltiples dispositivos. A través de ejemplos prácticos, se analiza cómo estas tecnologías permiten implementar diseños adaptativos y escalables que responden eficazmente a los retos del desarrollo frontend contemporáneo.
+            p.mb-4(data-aos="fade-right") En el PDF <b>Principios de diseño con CSS</b>, se exploran herramientas fundamentales como Flexbox, CSS Grid y técnicas de diseño responsivo, destacando su aplicación en la construcción de estructuras visuales eficientes y accesibles en múltiples dispositivos. A través de ejemplos prácticos, se analiza cómo estas tecnologías permiten implementar diseños adaptativos y escalables que responden eficazmente a los retos del desarrollo <em>frontend</em> contemporáneo.
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -186,32 +186,32 @@
         .row.justify-content-center
           .col-lg-10
             PasosA.color-primario.mb-5(tipo="n")
-              .row
-                .col-md-9.mb-4.mb-md-0
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0
                   h3 Paso 1
                   p Crear la estructura HTML básica con un formulario de entrada y un contenedor para las tareas, asegurando accesibilidad con etiquetas apropiadas y atributos ARIA.
-                .col-md-2
+                .col-md-4.col-md-4.col-lg-2
                   figure
                     img(src='@/assets/curso/tema2/17.svg', alt='Texto que describa la imagen')
-              .row
-                .col-md-9.mb-4.mb-md-0.order-2
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0.order-2
                   h3 Paso 2
                   p Implementar la funcionalidad de agregar tareas utilizando addEventListener en el formulario, previniendo el comportamiento predeterminado con preventDefault() y creando dinámicamente elementos DOM con createElement y appendChild.
-                .col-md-2.order-1.mb-4.mb-md-0
+                .col-md-4.col-md-4.col-lg-2.order-1.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema2/18.svg', alt='Texto que describa la imagen')
-              .row
-                .col-md-9.mb-4.mb-md-0
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0
                   h3 Paso 3
                   p Utilizar delegación de eventos agregando un único detector de eventos al contenedor de tareas que maneje clics en botones de completar y eliminar usando event.target para identificar el elemento específico.
-                .col-md-2
+                .col-md-4.col-md-4.col-lg-2
                   figure
                     img(src='@/assets/curso/tema2/19.svg', alt='Texto que describa la imagen')
-              .row
-                .col-md-9.mb-4.mb-md-0.order-2
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0.order-2
                   h3 Paso 4
                   p Implementar persistencia local utilizando localStorage para guardar el estado de las tareas, cargando los datos al inicializar la página y actualizando el almacenamiento cada vez que se modifica una tarea.
-                .col-md-2.order-1.mb-4.mb-md-0
+                .col-md-4.col-md-4.col-lg-2.order-1.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema2/20.svg', alt='Texto que describa la imagen')
     
@@ -224,26 +224,26 @@
             p.mb-0 El resultado es una aplicación completamente funcional que demuestra manipulación avanzada del DOM, gestión eficiente de eventos y persistencia de datos del lado del cliente.
     
     #t_2_5.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.5] Buenas prácticas en el desarrollo frontend: accesibilidad y optimización de rendimiento
+      h2 #[span 2.5] Buenas prácticas en el desarrollo <em>frontend</em>: accesibilidad y optimización de rendimiento
     
     .row.align-items-center.mb-5
       .col-lg-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema2/21.svg", style="max-width: 90px").mx-auto
       .col-lg
-        p.mb-0 La implementación de buenas prácticas en el desarrollo frontend es fundamental para garantizar que las aplicaciones web sean accesibles, eficientes y sostenibles a lo largo del tiempo.
+        p.mb-0 La implementación de buenas prácticas en el desarrollo <em>frontend</em> es fundamental para garantizar que las aplicaciones web sean accesibles, eficientes y sostenibles a lo largo del tiempo.
     
     .bg-full-width.bg-color-7.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0.text-white
-            h2.mb-4(data-aos="flip-up") Buenas prácticas en el desarrollo frontend: accesibilidad y optimización de rendimiento 
-            p.mb-4(data-aos="fade-right") En el PDF <b>Buenas prácticas en el desarrollo frontend</b>, se abordan estrategias clave centradas en la accesibilidad y la optimización del rendimiento, destacando su impacto en la experiencia de usuario y en la calidad técnica de los proyectos. A través de ejemplos prácticos, se presentan metodologías que permiten construir interfaces inclusivas y de alto rendimiento, aplicables a contextos reales del entorno empresarial y tecnológico.
+            h2.mb-4(data-aos="flip-up") Buenas prácticas en el desarrollo <em>frontend</em>: accesibilidad y optimización de rendimiento 
+            p.mb-4(data-aos="fade-right") En el PDF <b>Buenas prácticas en el desarrollo <em>frontend</em></b>, se abordan estrategias clave centradas en la accesibilidad y la optimización del rendimiento, destacando su impacto en la experiencia de usuario y en la calidad técnica de los proyectos. A través de ejemplos prácticos, se presentan metodologías que permiten construir interfaces inclusivas y de alto rendimiento, aplicables a contextos reales del entorno empresarial y tecnológico.
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Buenas prácticas en el desarrollo frontend: accesibilidad y optimización de rendimiento
+                p <strong>Anexo. </strong> Buenas prácticas en el desarrollo <em>frontend</em>: accesibilidad y optimización de rendimiento
     
           .col-lg-4.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
@@ -296,7 +296,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/fQKyqUG3UZA" target="_blank" rel="noopener noreferrer") Software Guru. (2021, 28 de mayo). #QuerynTalks 21-04 - ¿Qué es la UX?. [Vídeo] YouTube. 
+              a(href="https://youtu.be/fQKyqUG3UZA" target="_blank" rel="noopener noreferrer") <em>Software</em> Guru. (2021, 28 de mayo). #QuerynTalks 21-04 - ¿Qué es la UX?. [Vídeo] YouTube. 
 
 
 

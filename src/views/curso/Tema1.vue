@@ -9,7 +9,7 @@
           img(src="@/assets/curso/tema1/1.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
         .bg-color-2.p-5(data-aos="fade-left").mb-3
-          p.mb-0 El desarrollo frontend representa la puerta de entrada entre las personas usuarias y las aplicaciones web, constituyendo una disciplina fundamental que combina aspectos técnicos, estéticos y funcionales para crear experiencias digitales efectivas. En el contexto actual del desarrollo de software, el frontend ha evolucionado desde simples páginas estáticas hacia interfaces complejas e interactivas que requieren un dominio profundo de tecnologías, principios de diseño y metodologías centradas en la experiencia del usuario. Esta evolución ha transformado la manera en que se conciben, diseñan y desarrollan las aplicaciones web modernas, exigiendo a los profesionales en ingeniería de software una comprensión integral de múltiples disciplinas.
+          p.mb-0 El desarrollo <em>frontend</em> representa la puerta de entrada entre las personas usuarias y las aplicaciones web, constituyendo una disciplina fundamental que combina aspectos técnicos, estéticos y funcionales para crear experiencias digitales efectivas. En el contexto actual del desarrollo de <em>software</em>, el <em>frontend</em> ha evolucionado desde simples páginas estáticas hacia interfaces complejas e interactivas que requieren un dominio profundo de tecnologías, principios de diseño y metodologías centradas en la experiencia del usuario. Esta evolución ha transformado la manera en que se conciben, diseñan y desarrollan las aplicaciones web modernas, exigiendo a los profesionales en ingeniería de <em>software</em> una comprensión integral de múltiples disciplinas.
         p(data-aos="fade-left") La experiencia de usuario se ha posicionado como un factor determinante en el éxito de cualquier aplicación web, influyendo directamente en la adopción, retención y satisfacción de las personas que interactúan con estos sistemas. Los principios de usabilidad, accesibilidad y diseño centrado en el usuario no son simplemente consideraciones adicionales, sino elementos centrales que guían cada decisión de desarrollo desde las etapas iniciales de conceptualización hasta la implementación final. Esta perspectiva integral reconoce que la tecnología debe servir a las necesidades humanas, adaptándose a diferentes contextos, capacidades y preferencias, lo que requiere un enfoque metodológico y sistemático en el diseño de interfaces.
 
     .row.mb-5
@@ -22,7 +22,7 @@
             .col-lg-auto
               img(src="@/assets/curso/tema1/3.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p El dominio de las tecnologías frontend contemporáneas, incluyendo HTML semántico, CSS avanzado, JavaScript moderno y marcos de trabajo especializados, constituye la base técnica sobre la cual se construyen experiencias digitales robustas y escalables.
+              p El dominio de las tecnologías <em>frontend</em> contemporáneas, incluyendo HTML semántico, CSS avanzado, JavaScript moderno y marcos de trabajo especializados, constituye la base técnica sobre la cual se construyen experiencias digitales robustas y escalables.
               p.mb-0 Estas herramientas, cuando se combinan con una comprensión sólida de los principios de diseño y las mejores prácticas de desarrollo, permiten crear aplicaciones que no solo funcionan correctamente, sino que también ofrecen experiencias excepcionales.
         p(data-aos="fade-left") La integración de estos conocimientos técnicos con metodologías de diseño centrado en el usuario y principios de accesibilidad universal forma profesionales capaces de abordar los desafíos complejos del desarrollo web moderno, preparándose para contribuir significativamente en equipos multidisciplinarios y proyectos de alta complejidad.
     
@@ -73,7 +73,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/Cc2r8Apf_50" target="_blank" rel="noopener noreferrer") Plain Concepts. (2020, 18 de junio). #VirtualCoffee | La importancia del frontend en entornos empresariales. [Vídeo] YouTube. 
+              a(href="https://youtu.be/Cc2r8Apf_50" target="_blank" rel="noopener noreferrer") Plain Concepts. (2020, 18 de junio). #VirtualCoffee | La importancia del <em>frontend</em> en entornos empresariales. [Vídeo] YouTube. 
 
 
 

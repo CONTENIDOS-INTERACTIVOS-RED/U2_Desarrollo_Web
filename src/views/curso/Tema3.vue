@@ -67,7 +67,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     #t_3_3.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.3] Wireframes y prototipos: herramientas para visualizar la experiencia
+      h2 #[span 3.3] <em>Wireframes</em> y prototipos: herramientas para visualizar la experiencia
     
     p.mb-5 La visualización anticipada de interfaces digitales mediante esquemas y prototipos es una práctica esencial en el diseño centrado en el usuario, ya que permite experimentar, evaluar y refinar propuestas antes del desarrollo técnico.
     
@@ -75,8 +75,8 @@
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0.text-white
-            h2.mb-4(data-aos="flip-up") Wireframes y prototipos: herramientas para visualizar la experiencia  
-            p.mb-4(data-aos="fade-right") En el PDF <b>Wireframes y prototipos</b>, se abordan estas herramientas como medios estratégicos para estructurar contenido, modelar interacciones y simular la experiencia final del usuario. A través de su aplicación progresiva, desde representaciones de baja fidelidad hasta simulaciones interactivas, se estudian procesos que promueven la validación temprana de ideas y reducen riesgos en la implementación de soluciones digitales.
+            h2.mb-4(data-aos="flip-up") <em>Wireframes</em> y prototipos: herramientas para visualizar la experiencia  
+            p.mb-4(data-aos="fade-right") En el PDF <b><em>Wireframes</em> y prototipos</b>, se abordan estas herramientas como medios estratégicos para estructurar contenido, modelar interacciones y simular la experiencia final del usuario. A través de su aplicación progresiva, desde representaciones de baja fidelidad hasta simulaciones interactivas, se estudian procesos que promueven la validación temprana de ideas y reducen riesgos en la implementación de soluciones digitales.
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_5.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -131,32 +131,32 @@
         .row.justify-content-center
           .col-lg-10
             PasosA.color-primario.mb-5(tipo="n")
-              .row
-                .col-md-9.mb-4.mb-md-0
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0
                   h3 Paso 1
                   p Diseñar estados visuales distintos para cada campo de entrada incluyendo predeterminado, enfoque, válido, inválido, y deshabilitado, utilizando color, iconografía y animación para comunicar claramente el estado actual.
-                .col-md-2
+                .col-md-4.col-lg-2
                   figure
                     img(src='@/assets/curso/tema3/11.svg', alt='Texto que describa la imagen')
-              .row
-                .col-md-9.mb-4.mb-md-0.order-2
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0.order-2
                   h3 Paso 2
                   p Implementar validación progresiva que proporcione retroalimentación inmediata mientras el usuario escribe, mostrando criterios de validación (longitud de contraseña, formato de correo electrónico) con indicadores visuales que se actualizan dinámicamente.
-                .col-md-2.order-1.mb-4.mb-md-0
+                .col-md-4.col-lg-2.order-1.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema3/12.svg', alt='Texto que describa la imagen')
-              .row
-                .col-md-9.mb-4.mb-md-0
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0
                   h3 Paso 3
                   p Crear micro-interacciones para acciones como mostrar u ocultar contraseña con animación suave, indicador de progreso para fortaleza de contraseña, y animaciones sutiles que confirmen cuando los criterios de validación se cumplen.
-                .col-md-2
+                .col-md-4.col-lg-2
                   figure
                     img(src='@/assets/curso/tema3/13.svg', alt='Texto que describa la imagen')
-              .row
-                .col-md-9.mb-4.mb-md-0.order-2
+              .row.justify-content-center
+                .col-lg-9.mb-4.mb-lg-0.order-2
                   h3 Paso 4
                   p Implementar un sistema de mensajes de error que aparezcan contextualmente cerca del campo relevante, con lenguaje claro y accionable que guíe al usuario hacia la corrección, incluyendo estados de éxito que confirmen cuando el formulario está listo para envío.
-                .col-md-2.order-1.mb-4.mb-md-0
+                .col-md-4.col-lg-2.order-1.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/tema3/14.svg', alt='Texto que describa la imagen')
     

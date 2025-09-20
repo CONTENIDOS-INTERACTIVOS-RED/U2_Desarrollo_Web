@@ -5,7 +5,7 @@
       .bg-white
         .row.g-0
           //- Columna izquierda con imagen
-          .d-none.d-xl-block.d-xl-flex.mb-4.mb-md-0.col-md-4.col-xl-6.imagen-section
+          .d-none.d-xl-block.d-xl-flex.mb-4.mb-lg-0.col-md-4.col-xl-6.imagen-section
             img.img-fluid.h-full(
               src="@/assets/portada/banner.png"
               alt="Estudiante virtual"

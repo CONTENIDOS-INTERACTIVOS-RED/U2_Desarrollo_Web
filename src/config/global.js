@@ -57,7 +57,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '2.5',
             titulo:
-              'Buenas prácticas en el desarrollo frontend: accesibilidad y optimización de rendimiento',
+              'Buenas prácticas en el desarrollo <em>frontend</em>: accesibilidad y optimización de rendimiento',
             hash: 't_2_5',
           },
         ],
@@ -87,7 +87,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '3.3',
             titulo:
-              'Wireframes y prototipos: herramientas para visualizar la experiencia',
+              '<em>Wireframes</em> y prototipos: herramientas para visualizar la experiencia',
             hash: 't_3_3',
           },
           {
@@ -110,14 +110,14 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Uso de frameworks (React, Angular)',
+        titulo: 'Uso de <em>framework</em>s (React, Angular)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
             titulo:
-              'Introducción a los frameworks de JavaScript: diferencias entre React, Angular y Vue.js',
+              'Introducción a los <em>framework</em>s de JavaScript: diferencias entre React, Angular y Vue.js',
             hash: 't_4_1',
           },
           {
@@ -145,7 +145,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '4.5',
             titulo:
-              'Comparativa entre React y Angular: elección del framework adecuado para proyectos',
+              'Comparativa entre React y Angular: elección del <em>framework</em> adecuado para proyectos',
             hash: 't_4_5',
           },
         ],
@@ -188,14 +188,18 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Cardador Cabello, A. L. (2015). Desarrollo de aplicaciones web distribuidas (UF1846): ( ed.). IC Editorial. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/44134?page=1',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Celaya Luna, A. (Coord.). (2015). Desarrollo de páginas web con Joomla 2.5: (2 ed.). Editorial ICB. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/113039?page=1',
+    },
+    {
+      referencia:
+        'Contreras Castañeda, M. Á. (2016). Desarrollo de aplicaciones web multiplataforma: ( ed.). Ministerio de Educación y Formación Profesional de España.  ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/101940?page=1',
     },
   ],
   glosario: [
@@ -212,12 +216,12 @@ export default {
     {
       termino: 'Angular',
       significado:
-        'Framework completo de JavaScript desarrollado por Google que proporciona una arquitectura opinionada para crear aplicaciones web robustas y escalables.',
+        '<em>Framework</em> completo de JavaScript desarrollado por Google que proporciona una arquitectura opinionada para crear aplicaciones web robustas y escalables.',
     },
     {
       termino: 'API (<em>Application Programming Interface</em>)',
       significado:
-        'Conjunto de reglas y protocolos que permite la comunicación entre diferentes componentes de software o servicios web.',
+        'Conjunto de reglas y protocolos que permite la comunicación entre diferentes componentes de <em>software</em> o servicios web.',
     },
     {
       termino: 'ARIA (<em>Accessible Rich Internet Applications</em>)',
@@ -247,12 +251,12 @@ export default {
     {
       termino: '<em>Component</em>',
       significado:
-        'Elemento reutilizable en frameworks como React o Angular que encapsula lógica, estructura y presentación de una parte específica de la interfaz.',
+        'Elemento reutilizable en <em>framework</em>s como React o Angular que encapsula lógica, estructura y presentación de una parte específica de la interfaz.',
     },
     {
       termino: 'CSS (<em>Cascading Style Sheets</em>)',
       significado:
-        'Lenguaje de hojas de estilo que define la presentación visual de documentos HTML, incluyendo colores, layouts y tipografía.',
+        'Lenguaje de hojas de estilo que define la presentación visual de documentos HTML, incluyendo colores, <em>layout</em>s y tipografía.',
     },
     {
       termino: '<em>Dependency injection</em>',
@@ -282,22 +286,22 @@ export default {
     {
       termino: '<em>Flexbox</em>',
       significado:
-        'Sistema de layout unidimensional en CSS que permite distribuir elementos en una fila o columna con control flexible sobre alineación y espaciado.',
+        'Sistema de <em>layout</em> unidimensional en CSS que permite distribuir elementos en una fila o columna con control flexible sobre alineación y espaciado.',
     },
     {
-      termino: 'Framework',
+      termino: '<em>Framework</em>',
       significado:
-        'Estructura de software que proporciona herramientas, bibliotecas y convenciones para desarrollar aplicaciones de manera más eficiente y organizada.',
+        'Estructura de <em>software</em> que proporciona herramientas, bibliotecas y convenciones para desarrollar aplicaciones de manera más eficiente y organizada.',
     },
     {
-      termino: 'Frontend',
+      termino: '<em>Frontend</em>',
       significado:
         'Parte de una aplicación web que interactúa directamente con el usuario, incluyendo la interfaz visual y la lógica de presentación.',
     },
     {
       termino: '<em>Grid</em> CSS',
       significado:
-        'Sistema de layout bidimensional que permite crear diseños complejos con control simultáneo sobre filas y columnas.',
+        'Sistema de <em>layout</em> bidimensional que permite crear diseños complejos con control simultáneo sobre filas y columnas.',
     },
     {
       termino: 'Hook',
@@ -365,7 +369,7 @@ export default {
         'Algoritmo interno de React que determina qué cambios deben realizarse en el DOM real basándose en diferencias en el Virtual DOM.',
     },
     {
-      termino: 'Responsive design',
+      termino: '<em>Responsive design</em>',
       significado:
         'Enfoque de diseño que permite que las interfaces se adapten automáticamente a diferentes tamaños de pantalla y dispositivos.',
     },
@@ -432,7 +436,7 @@ export default {
     {
       termino: 'Vue.js',
       significado:
-        'Framework progresivo de JavaScript que combina simplicidad en el aprendizaje con capacidades avanzadas para aplicaciones complejas.',
+        '<em>Framework</em> progresivo de JavaScript que combina simplicidad en el aprendizaje con capacidades avanzadas para aplicaciones complejas.',
     },
     {
       termino: 'WCAG (<em>Web Content Accessibility Guidelines</em>)',
