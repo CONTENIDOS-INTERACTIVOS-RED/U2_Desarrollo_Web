@@ -1,1 +1,1 @@
-module.exports = '<em>Frontend</em> y experiencia de usuario'
+module.exports = 'Frontend y experiencia de usuario'
