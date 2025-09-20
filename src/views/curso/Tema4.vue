@@ -336,50 +336,22 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/101940?page=1" target="_blank" rel="noopener noreferrer") Contreras Castañeda, M. Á. (2016). Desarrollo de aplicaciones web multiplataforma: ( ed.). Ministerio de Educación y Formación Profesional de España. 
+              a(href="https://developer.mozilla.org/es/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks" target="_blank" rel="noopener noreferrer") Colaboradores de MDN. (s.f.). Entendiendo los frameworks de JavaScript del lado del cliente. MDN Web Docs. Consultado el 20 de septiembre de 2025, desde 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/249857?page=1" target="_blank" rel="noopener noreferrer") Granados La Paz, R. L. (2023). Desarrollo de aplicaciones web en el entorno servidor. IFCD0210: (1 ed.). IC Editorial. 
+              a(href="https://es.react.dev/learn" target="_blank" rel="noopener noreferrer") El equipo de React. (s.f.). Aprende React. React. Consultado el 20 de septiembre de 2025, desde 
 
  
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/62488?page=1" target="_blank" rel="noopener noreferrer") Vara Mesa, J. M. & Granada, D. (2015). Desarrollo web en entorno cliente: ( ed.). RA-MA Editorial. 
+              a(href="https://angular.dev/overview" target="_blank" rel="noopener noreferrer")  El equipo de Angular. (s.f.). Documentación de Angular. Angular. Consultado el 20 de septiembre de 2025, desde 
 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://blog.fabritglobal.com/react-for-angular-developers/" target="_blank" rel="noopener noreferrer") Fabrit Global. (s.f.). Getting Started with React, When You’re an Angular Developer. Fabrit Global Blog. 
+              a(href="https://www.toptal.com/front-end/angular-vs-react-cual-es-mejor-para-el-desarrollo-web " target="_blank" rel="noopener noreferrer") Toptal. (s.f.). Angular vs. React: ¿Cuál es mejor para el desarrollo web?  
 
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://rangle.io/blog/angular-for-react-devs" target="_blank" rel="noopener noreferrer") Rangle.io. (2019, octubre 3). Angular for React Devs. Rangle.io. 
-
- 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://codezup.com/building-a-single-page-application-with-angular-and-react/" target="_blank" rel="noopener noreferrer") Codez Up. (2024, noviembre 17). Building a Single-Page Application with Angular and React. Codez Up. 
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://labex.io/tutorials/category/react" target="_blank" rel="noopener noreferrer") LabEx. (2025). React tutorials: laboratorio interactivo para desarrollo de UI en React. 
-            
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://freecomputerbooks.com/Angular-Notes-for-Professionals.html" target="_blank" rel="noopener noreferrer") Stack Overflow Contributors. (s.f.). Angular Notes for Professionals. Goalkicker. 
-
-
-
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
