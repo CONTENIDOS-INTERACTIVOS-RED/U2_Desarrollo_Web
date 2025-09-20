@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'Frontend y experiencia de usuario'
